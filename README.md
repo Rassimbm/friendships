@@ -1,1 +1,1 @@
-MySQL ERD Practice using self joins
+MySQL ERD Practice

@@ -1,0 +1,2 @@
+Create 6 new users
+INSERT INTO users (first_name, last_name) VALUES ("Zak", "Benmouaz"), ("Fettah", "Boussaid"), ("Madjid", "Merzoug"), ("Hicham", "Berrada"), ("Bilal", "Merazaoui"), ("Rassim", "Benmhamed");

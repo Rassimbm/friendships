@@ -16,3 +16,6 @@ SELECT friends.first_name AS first_name, friends.last_name AS last_name , CONCAT
 
 Return the count of all friendships
 SELECT COUNT(*) AS num_of_friendship FROM friendships;
+
+Find out who has the most friends and return the count of their friends
+SELECT COUNT(*) AS num_of_friendship FROM friendships;

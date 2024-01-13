@@ -19,3 +19,6 @@ SELECT COUNT(*) AS num_of_friendship FROM friendships;
 
 Find out who has the most friends and return the count of their friends
 SELECT COUNT(*) AS num_of_friendship FROM friendships;
+
+Find out who has the most friends and return the count of their friends
+SELECT friendships.user_id, users.first_name, users.last_name, COUNT(friendships.user_id) AS num_of_friends FROM friendships LEFT JOIN users ON users.id = friendships.user_id GROUP BY user_id ORDER BY num_of_friends DESC LIMIT 1;
